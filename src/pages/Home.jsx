@@ -1,8 +1,6 @@
 import { useContext } from 'react'
-import Banner from "../components/Banner/Banner"
-import Header from "../components/header/header"
+import Header from "../components/reader/Header"
 import Footer from "../components/Footer/Footer"
-import Button from "../components/button/Button"
 import Hero from "../components/Hero/Hero" 
 import ProjecList from "../components/ProjectsList/Projectslist"
 
@@ -10,7 +8,7 @@ import ProjecList from "../components/ProjectsList/Projectslist"
 import { AppContext } from '../Contexts/AppContext'
 
 
-function home () {
+function Home () {
     const appContext = useContext(AppContext)
     return ( 
     <>
@@ -31,4 +29,4 @@ function home () {
      
 }
 
-export default home 
+export default Home 
