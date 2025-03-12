@@ -1,0 +1,126 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&family=Manrope:wght@200..800&display=swap');
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "jost", sans-serif;
+  font-weight: 400;
+  color: #292f36;
+  background-color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* main color */ 
+
+.primary-bacground {
+  background-color: #0c70f2;
+}
+
+.primary-color {
+  background-color: #0c70f2;
+}
+
+.secundary-bacground {
+  background-color: #1D1D1D;
+}
+
+.secundary-color {
+  background-color: #1D1D1D;
+}
+
+.tertiary-bacground {
+  background-color: #F6F6F6;
+}
+
+.tertiary-color {
+  background-color: #F6F6F6;
+}
+
+.gray-1-color {
+  color: #4D5053;
+}
+
+/* FORM */
+
+.form-input {
+  border: none;
+  border-bottom: 1px solid #292f36;
+  color: #292f36;
+  font-size: 22px;
+  font-family: "jost", sans-serif;
+  padding: 0 0 13px;
+  outline: none;
+  width: 100%;
+}
+
+.form-input::placeholder {
+  color: #292f36;
+  opacity: 1;
+}
+
+/* TYPOGRAPH Y */ 
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Serif Display", serif;
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2.5px;
+}
+
+.txt-center {
+  text-align: center;
+}
+/* GRID */ 
+
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 0 30px;
+}
+
+.al-center {
+  align-items: center;
+}
+
+.al-end {
+  align-items: end;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.fd-column {
+  flex-direction: column;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-end {
+  justify-content: end;
+}
+
+.jc-space-between {
+  justify-content: space-between;
+}
+
+
+
+@media (max-width: 768px) {
+  .container{
+    width: 90%;
+  }
+  .mobile-fd-column {
+    flex-direction: column;
+  }
+}
